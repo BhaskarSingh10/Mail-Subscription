@@ -11,11 +11,14 @@
 			<section>
 				<h1>Thank you for Subscribing.</h1> 
 				<?php
+				$emailAddress = "">
 				$emailAddress = $_GET['emailAddress']; 
 				echo("Your email address, $emailAddress, has been added to our list of subscribers."); 
 				?>
 			</section>
 		</main>    
-		
+		<footer>
+			<p><small>© Email Subscription Inc.</small></p>
+		</footer>
 	</body>
 </html>
