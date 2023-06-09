@@ -11,14 +11,12 @@
 <body>
     <form action="subscribe.php" method="get">
         <h1>Subscribe to Newsletter</h1>
-        <label for="emailAddress">Email Address:</label>
-        <label value="id" id="emailaddress"></label>
-         <input name="email" type="email" id="emailaddress" required>
-            <button type="submit">Subscribe</button>
-       </form>
-       <footer>
+        <label for="email">Email Address:</label>
+        <input name="email" type="email" id="email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+    <footer>
         <p>@e-Mail Subscription Inc.</p>
     </footer>
-       
 </body>
 </html>
