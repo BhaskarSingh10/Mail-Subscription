@@ -10,7 +10,7 @@
 </head>
 <body>
     <aside>
-    <form action="subscribe.php" method="get">
+    <form action="index.php" method="get">
         <h3>Subscribe to Newsletter</h3>
         <label for="emailAddress">Email Address:</label>
         <label value="id" id="emailaddress"></label>
