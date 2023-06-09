@@ -9,14 +9,18 @@
     <title>Email Subscription Form</title>
 </head>
 <body>
+    <aside>
     <form action="subscribe.php" method="get">
-        <h1>Subscribe to Newsletter</h1>
-        <label for="email">Email Address:</label>
-        <input name="email" type="email" id="email" required>
-        <button type="submit">Subscribe</button>
-    </form>
-    <footer>
-        <p>@e-Mail Subscription Inc.</p>
+        <h3>Subscribe to Newsletter</h3>
+        <label for="emailAddress">Email Address:</label>
+        <label value="id" id="emailaddress"></label>
+         <input name="email" type="email" id="emailaddress" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </aside>
+       <footer>
+        <p>© Email Subscription Inc.</p>
     </footer>
+       
 </body>
 </html>
