@@ -5,12 +5,11 @@
     <link rel="shortcut icon" href="email-logo-png-1119.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://bhaskarsingh10.github.io/Mail-Subscription/">
-    <link rel="php" href="subscribe.php">
     <title>Email Subscription Form</title>
 </head>
 <body>
     <aside>
-    <form action="index.php" method="get">
+    <form action="index.php" method="POST">
         <h3>Subscribe to Newsletter</h3>
         <label for="emailAddress">Email Address:</label>
         <label value="id" id="emailaddress"></label>
