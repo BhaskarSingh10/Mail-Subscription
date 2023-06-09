@@ -9,10 +9,10 @@
 	<body>
 		<main>
 			<section>
-				<h1>Thank you for Subscribing.</h1> <!-- Corrected closing tag for h1 -->
+				<h1>Thank you for Subscribing.</h1> 
 				<?php
-				$emailAddress = $_GET['emailAddress']; // Corrected variable name
-				echo("Your email address, $emailAddress, has been added to our list of subscribers."); // Added semicolon at the end
+				$emailAddress = $_GET['emailAddress']; 
+				echo("Your email address, $emailAddress, has been added to our list of subscribers."); 
 				?>
 			</section>
 		</main>    
